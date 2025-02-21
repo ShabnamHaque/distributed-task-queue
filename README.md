@@ -28,7 +28,9 @@ Task Enqueue:
 Tasks are pushed to the Redis queue.
 
 Example:
+```
 err := redis.InsertTask(taskID)
+```
 
 Worker Execution:
 
