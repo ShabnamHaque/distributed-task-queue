@@ -7,8 +7,11 @@ This project is a distributed task queue built in Golang, leveraging Redis for m
 ## Tech Stack
 
 Golang – Backend processing
+
 Redis – Message queue for task distribution
+
 MongoDB – Task persistence and status tracking
+
 Goroutines – Concurrent task processing
 
 ### Features
