@@ -25,7 +25,7 @@ Scalability: Easily scales with additional workers.
 ### How It Works
 
 Task Enqueue:
-Tasks are pushed to the Redis queue.
+Tasks are pushed to the Redis queue. Lpop and Rpush are used for redis lists
 
 Example:
 ```
